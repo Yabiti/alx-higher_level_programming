@@ -1,4 +1,4 @@
-#include <Python.h>
+#include <python.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <stddef.h>
