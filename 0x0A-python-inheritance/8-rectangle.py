@@ -1,13 +1,16 @@
 #!/usr/bin/python3
-"""basegeometryclass"""
+""" Improve Geometry.
+Author: Kanneh
+
+"""
 
 
 class BaseGeometry:
-    """instance of geometry class"""
-
-    def __init__(self):
-        """initialize class"""
-        pass
+    """An empty class"""
 
     def area(self):
+        """Raises an exception because...
+        area is not implemented
+
+        """
         raise Exception("area() is not implemented")
