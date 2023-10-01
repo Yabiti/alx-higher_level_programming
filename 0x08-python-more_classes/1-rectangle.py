@@ -40,4 +40,7 @@ class Rectangle:
         else:
             raise TypeError('height must be an integer')
         self.__height = value
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1111f17d04b387436cbc39e2af2c3bd075d49ba2

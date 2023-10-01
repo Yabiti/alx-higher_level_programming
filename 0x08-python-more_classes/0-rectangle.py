@@ -5,5 +5,3 @@
 class Rectangle:
     """it is an empty class names as Rectangle"""
     pass
-
-
