@@ -2,6 +2,7 @@
 # 4-inherits_from.py
 """Defines a class-checking function."""
 
+
 def inherits_from(obj, a_class):
     """Check if an object is exactly an instance of a given class.
     Args:
@@ -13,4 +14,4 @@ def inherits_from(obj, a_class):
     """
     if type(obj) is a_class:
         return False
-    return false
+    return isinstance(obj, a_class)
