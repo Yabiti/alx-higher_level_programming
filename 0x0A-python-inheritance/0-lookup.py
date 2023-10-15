@@ -1,11 +1,15 @@
 #!/usr/bin/python3
 
-a = 1
-print(a)
-print(type(a))
-print(id(a))
-
-a = "one"
-print(a)
-print(type(a))
-print(id(a))
+def main():
+    x = 1
+    print(id(x))
+    print(type(x))
+    x = 2
+    print(id(x))
+    print(type(x))
+    x = 1
+    print(id(x))
+    print(type(x))
+    
+    if __name__ == "__main__":
+    main()
