@@ -10,6 +10,6 @@ def main():
     x = 1
     print(id(x))
     print(type(x))
-    
-    if __name__ == "__main__":
+
+if __name__ == "__main__":
     main()
