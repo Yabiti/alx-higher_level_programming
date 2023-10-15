@@ -1,7 +1,7 @@
 def main():
     print("this is main function")
-    condtional_exec()
-    conditional_values()
+
+
 def conditional_exec():
     a, b = 1 , 3
     if a < b:
@@ -10,3 +10,5 @@ def conditional_exec():
         print("a is greater than b")
     else:
         print("a is equal to b")
+if __name__ == "__main__":
+    main()
