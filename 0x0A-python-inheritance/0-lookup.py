@@ -6,4 +6,4 @@ def conditionals_exec():
         print("a is greater than b")
     else:
         print("a is equal to b")
-    conditionals_exec
+conditionals_exec()
