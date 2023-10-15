@@ -1,5 +1,5 @@
 def conditionals_exec():
-    a, b = 4, 3
+    a, b = 3, 3
     if a < b:
         print("a is less than b")
     elif a > b:
