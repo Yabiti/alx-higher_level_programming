@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+# 0-lookup.py
+"""Defines an object attribute lookup function."""
 
-def main():
-    print("i'm coming")
 
-if __name__ == "__main__":
-    main()
+def lookup(obj):
+    """Return a list of an object's available attributes."""
+    return (dir(obj))
