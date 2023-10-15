@@ -1,6 +1,9 @@
-def main():
-    Good Human = Human()
-    print(Good Human.whatkind())
-
-if __name__ == "__main__":
-    main()
+def conditionals_exec():
+    a, b = 1, 3
+    if a < b:
+        print("a is less than b")
+    elif a > b:
+        print("a is greater than b")
+    else:
+        print("a is equal to b")
+    conditionals_exec
