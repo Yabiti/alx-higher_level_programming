@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def main():
-    print("i am a general python syntax file")
-
+    print("a line inside amin function")
+    print("a line outside main function")
 if __name__ == "__main__":
     main()
