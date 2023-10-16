@@ -1,5 +1,13 @@
 #!/usr/bin/python3
-strings = "i am a string"
-for index, s in  enumerate(strings):
-    if s == 's':
-        print("hi i am 's' and i am located at position{}".format(index))
+
+def main():
+    loops(0)
+    loops()
+    loops(3)
+def loops(a = 4):
+    for i in range(a,6):
+        print(i, " ")
+
+if __name__ == "__main__":
+    main()
+
