@@ -1,4 +1,4 @@
 b = 1
 while b < 50:
     print(b)
-    b = b + 15
+    b = b + 19
