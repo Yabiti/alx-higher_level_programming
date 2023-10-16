@@ -3,7 +3,7 @@
 def main():
     loops(0)
     loops()
-    loops(3)
+    loops(1)
 def loops(a = 2):
     for i in range(a,6):
         print(i, " ")
