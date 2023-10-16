@@ -2,6 +2,7 @@ def main():
     conditional_exec()
     conditional_values()
 
+
 def conditional_exec():
     a, b = 2, 2
     if a < b:
@@ -9,6 +10,7 @@ def conditional_exec():
     elif a > b:
         print("a is greater than b")
     else:
+
         print("a is equal to b")
 
 def conditional_values():
