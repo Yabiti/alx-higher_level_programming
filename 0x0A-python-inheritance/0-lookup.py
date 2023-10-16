@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-enumerate
-songs = open('file.txt')
-for index, in lines in
-enumerate(songs, readlines()):
-print(index, lines, end = ' ')
+strings = "tjis is a string"
+for index, s in enumerate(strings):
+    if s == 's':
+        print("hi i am 's' and i am located at position{}".format(index))
