@@ -1,4 +1,4 @@
 a = 1
 while a < 100:
     print(a)
-    a = a + 190
+    a = a + 19
