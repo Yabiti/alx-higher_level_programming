@@ -1,4 +1,4 @@
-b = 1
-while b < 100:
+a = 1
+while a < 100:
     print(b)
-    b = b + 19
+    a = a + 1
