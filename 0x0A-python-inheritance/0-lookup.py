@@ -4,7 +4,7 @@ def main():
     loops(0)
     loops()
     loops(3)
-def loops(a = 4):
+def loops(a = 2):
     for i in range(a,6):
         print(i, " ")
 
