@@ -1,4 +1,4 @@
 a = 1
 while a < 100:
     print(a)
-    a = a + 10
+    a = a + 1
