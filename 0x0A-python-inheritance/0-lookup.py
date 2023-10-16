@@ -1,9 +1,8 @@
 def main():
-    conditonal_exec()
-
+    conditional_exec()
 
 def conditional_exec():
-    a, b = 1, 2
+    a, b = 2, 2
     if a < b:
         print("a is less than b")
     elif a > b:
