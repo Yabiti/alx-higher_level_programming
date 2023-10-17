@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def main():
-    PassingParameters(1,12)
+    PassingParameters(1,12,None)
 
 def PassingParameters(argument1, argument2 = None, argument3 = 6):
     if argument2 == None:
