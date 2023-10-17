@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 
 def main():
-    TestFunction()
-    AnotherFunction()
+    PassingParameters(1,2,3)
 
-def TestFunction():
-    print(" i am going to call a function")
-def AnotherFunction():
-    print("i am another function")
+def PassingParameters(argument1, argument2, argumnet3)
+
 if __name__ == "__main__":
     main()
