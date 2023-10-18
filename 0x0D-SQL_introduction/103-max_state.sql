@@ -1,2 +1,3 @@
-INSERT INTO <table name>
-VALUES (<value 1>, ... <value n>);
+UPDATE <table name>
+SET <attribute> = <expression>
+WHERE <condition>
