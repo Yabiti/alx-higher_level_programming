@@ -1,2 +1,2 @@
 DELETE FROM <table name>
-where <condition>;
+WHERE <condition>;
