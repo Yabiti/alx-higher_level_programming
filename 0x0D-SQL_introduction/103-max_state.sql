@@ -1,2 +1,4 @@
-DELETE FROM <table name>
-WHERE <condition>;
+SELECT {attribute}+
+FROM {table}+
+[ {where boolean predicates to pick rows} ]
+[ {order by attribute +}]
