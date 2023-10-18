@@ -1,3 +1,3 @@
 ALTER TABLE <table name>
-ADD CONSTRAINT <constraint name> FOREIGN KEY (< attribute list>)
-REFERENCES <parent table name> (<parent table list>);
+ADD CONSTRAINTS <constriant name> FOREIGN KEY <attribute list>
+FOREIGN KEY <parent name list> <parent list>
