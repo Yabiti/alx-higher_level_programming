@@ -1,3 +1,2 @@
 ALTER TABLE <table name>
-ADD CONSTRAINT <constriant name> FOREIGN KEY <attribute list>
-REFERENCES <parent table name list> <attribute list>
+ADD CONSTRAINT <constraint name> PRIMARY KEY (<attribute list>)
