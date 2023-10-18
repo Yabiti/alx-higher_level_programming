@@ -1,3 +1,2 @@
-UPDATE <table name>
-SET <attribute> = <expression>
-WHERE <condition>;
+DELETE FROM <table name>
+where <condition>;
