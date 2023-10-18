@@ -1,3 +1,2 @@
-DROP TABLE <table name>
-ALTER TABLE <table name>
-ADD CONSTRAINT <constraint name>
+INSERT INTO <table name>
+VALUES (value 1) (values)
