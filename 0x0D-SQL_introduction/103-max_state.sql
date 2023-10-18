@@ -1,2 +1,2 @@
 INSERT INTO <table name>
-VALUES (value 1) (values)
+VALUES (<value 1>, ... <value>)
