@@ -1,4 +1,3 @@
 CREATE TABLE <table name> (
-    <attribute name 1> <data type 1>
-
-    <atrribute name n> <data type n>)
+    <attribute name 2> <data type 2>
+    <attribute name n> <data type n)
