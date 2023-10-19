@@ -1,2 +1,3 @@
-INSERT INTO <table name>;
-values (<value 1> ... <value name>)
+UPDATE <table name>
+SET <attribute> = <expression>
+WHERE <conditon>
