@@ -1,3 +1,3 @@
-UPDATE <table name>
-SET <attribute> = <expression>
-WHERE <conditon>
+UPDATE <table name>;
+SET <attribute name>
+WHERE <condition>;
