@@ -1,3 +1,3 @@
-SELECT cLastName, cFirst NAme, cPhone
-FROM customers
-WHERE cZipCode = '90867'
+CREATE TABLE <table name>
+<attribute 1> <attribute name>
+<attribute name n> <attribute n>
