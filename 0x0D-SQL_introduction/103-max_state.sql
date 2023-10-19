@@ -1,2 +1,3 @@
-DROP TABLE <table name>
-from *
+DROP TABLE <table name>;
+ALTER TABLE <table name>
+DROP CONSTRAINT <constraint name>
