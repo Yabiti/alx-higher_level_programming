@@ -1,3 +1,3 @@
 DROP TABLE <table name>;
 ALTER TABLE <table name>
- DROP CONSTRAINT  <constraint name>;
+DROP CONSTRAINT <constraint table>;
