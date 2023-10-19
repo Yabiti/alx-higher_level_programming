@@ -1,3 +1,2 @@
-CREATE TABLE <table name>
-<attribute 1> <data type 1>
-<attribute name n> <data type n>
+ALTER TABLE <table name>
+ADD CONSTRAINT <constraint name> PRIMARY KEY <attribute name>
