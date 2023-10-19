@@ -1,2 +1,4 @@
-ALTER TABLE <table name>
-ADD CONSTRAINT <constraiant n> PRIMARY KEY (<attribute list>);
+ALTER TABLE <table name>(
+ADD CONSTRAINT <constraint> FORIEGN KEY <attribute list>
+REFERENCE (<parent table name>) <attribute list>;
+)
