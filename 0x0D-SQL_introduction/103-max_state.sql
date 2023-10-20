@@ -1,3 +1,2 @@
-SELECT custID, orderDate, upc, unitsaleprice * primary
-FROM orderlines;
-
+SELECT custID, orderDate, upc, unitsaleprice * PRIMARY
+FROM orderDate;
