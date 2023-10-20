@@ -1,3 +1,3 @@
-SELECT cZipcode
+SELECT zipcode
 FROM customers
-WHERE cFirstName = 'wayne' AND classtName = 'rock'
+WHERE cFirstname = 'wayne' AND classtName = 'rock'
