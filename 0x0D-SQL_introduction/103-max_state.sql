@@ -1,2 +1,2 @@
-SELECT SUM(unotaleprice * quantity)
+SELECT SUM(unittotalprice * quantity) AS totalsales
 from orderlines;
