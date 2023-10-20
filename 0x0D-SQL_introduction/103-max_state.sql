@@ -1,3 +1,2 @@
-SELECT custID,orderplace, upc,
-unitsaleprice * quantity  AS subtotal
-FROM orederlines;
+SELECT SUM(unotaleprice * quantity)
+from orderlines;
