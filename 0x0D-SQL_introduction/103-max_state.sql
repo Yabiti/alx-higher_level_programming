@@ -1,3 +1,3 @@
-SELECT cFirstname, classtName
+SELECT cZipcode
 FROM customers
-WHERE cZipcode = ???
+WHERE cFirstName = 'wayne' AND classtName = 'rock'
