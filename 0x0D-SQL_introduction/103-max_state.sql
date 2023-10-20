@@ -1,2 +1,2 @@
-SELECT SUM(unittotalprice * quantity) AS totalsales
-from orderlines;
+SELECT SUM(unitsaleprice * primary) AS subtotals
+FROM orderlines;
