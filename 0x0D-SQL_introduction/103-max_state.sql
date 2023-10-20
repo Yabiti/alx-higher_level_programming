@@ -1,2 +1,3 @@
-SELECT SUM(unitsaleprice * primary) AS subtotals
-FROM orderlines;
+SELECT custID, orderDate, SUM(unitsaleprice * quantity) AS total
+FROM orderlines
+GROUP BY custID, orderdate
