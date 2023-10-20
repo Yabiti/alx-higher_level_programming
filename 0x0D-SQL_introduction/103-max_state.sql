@@ -1,3 +1,2 @@
-SELECT DISTNICT prodname, unitsaleprice
-FROM PRODUCTS NATURAL JOIN orderlines
-WHERE unitsaleprice = the average unot sale price
+SELECT AVG(unitsale price)
+FROM orderlines
