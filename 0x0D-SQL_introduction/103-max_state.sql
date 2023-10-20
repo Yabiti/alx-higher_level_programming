@@ -1,2 +1,2 @@
-INSERT INTO <table name>
-values <value 1> ... <value n>
+SELECT custID, orederDate, upc, unitsaleprice * quantity
+FROM orderlines;
