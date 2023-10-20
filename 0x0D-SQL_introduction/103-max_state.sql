@@ -1,2 +1,2 @@
-SELECT custID, orederDate, upc, unitsaleprice * quantity
-FROM orderlines;
+SELECT custID, orderDate, upc, subtotal * primary
+FROM customers
