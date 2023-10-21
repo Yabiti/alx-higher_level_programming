@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
 def main():
-    print("fuck tjis world")
+    print("fuck this world")
 if __name__ == "__main__":
     main()
