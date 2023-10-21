@@ -3,8 +3,8 @@
 def main():
     strings = "i love you"
     print(strings)
-    anotherstrings = "you are so gorgreous"
-    print(anotherstrings)
+    rawstrings = "you are so gorgreous/n whT"
+    print(rawstrings)
 
 if __name__ == "__main__":
     main()
