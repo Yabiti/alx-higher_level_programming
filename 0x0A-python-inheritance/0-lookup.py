@@ -2,4 +2,4 @@
 
 
 EnglishDictionaries = {'wesu': 'lala', 'wesauye': 'lolo'}
-print(EnglishDictionaries)
+print(key, "=", EnglishDictionaries[keys])
