@@ -1,14 +1,7 @@
 #!/usr/bin/python3
 def main():
-    x = 1
-    print(x)
-    print(id(x))
-    print(type(x))
-
-    x = 2
-    print(x)
-    print(id(x))
-    print(type(x))
+    strings = "i loved working with you github"
+    print(strings)
 
 if __name__ == "__main__":
     main()
