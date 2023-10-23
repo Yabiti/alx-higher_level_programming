@@ -1,15 +1,3 @@
-#!/usr/bin/python3
-def main():
-    conditonal_exec()
-
-def conditonal_exec():
-    a,b = 1,3
-    if a < b:
-        print("a is less tahn b")
-def conditional_values():
-    a,b = 1,3
-    statements = "lessthan" ifa<b  else"not lessthan"
-
-    
-if __name__ == "__main__":
-    main()
+b = 1
+while b < 50:
+    print(b)
