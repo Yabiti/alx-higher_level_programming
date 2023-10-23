@@ -8,7 +8,7 @@ def conditonal_exec():
         print("a is less tahn b")
 def conditional_values():
     a,b = 1,3
-    statements = "lessthan" a<b if lessthan else"not lessthan"
+    statements = "lessthan" ifa<b  else"not lessthan"
 
     
 if __name__ == "__main__":
