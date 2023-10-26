@@ -8,3 +8,5 @@ def conditional_exec():
     a,b = 1,2
     if a < b:
         print("a is lessthan b")
+    elif a > b:
+        print("a is greater than b")
