@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-a,c = 10, 1
-while a < 50:
-    print(a)
+def main():
+    conditional_exec()
 
-    a = a + c
+
+def conditional_exec():
