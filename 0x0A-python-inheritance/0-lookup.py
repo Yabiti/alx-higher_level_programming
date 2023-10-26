@@ -12,3 +12,6 @@ def conditional_exec():
         print("a is greater than b")
     else:
         print("a is equak to b")
+
+if __name__ == "__main__":
+    main()
