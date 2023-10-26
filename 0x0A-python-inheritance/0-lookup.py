@@ -4,4 +4,4 @@ while b < 50:
     print(a,b = " ")
     a  = b
     b = b + a
- 
+
