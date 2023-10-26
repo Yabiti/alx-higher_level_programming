@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-a,c = , 1
+a,c = 10, 1
 while a < 50:
     print(a)
 
