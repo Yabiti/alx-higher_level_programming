@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-a,b = 0,1
-while b < 50:
-    print(a,b = " ")
-    a  = b
-    b = b + a
 
+a,c = , 1
+while a < 50:
+    print(a)
+
+    a = a + c
