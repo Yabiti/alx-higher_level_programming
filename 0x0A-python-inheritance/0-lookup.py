@@ -10,3 +10,5 @@ def conditional_exec():
         print("a is lessthan b")
     elif a > b:
         print("a is greater than b")
+    else:
+        print("a is equak to b")
