@@ -1,1 +1,1 @@
-SELECT posts.title
+SELECT posts.title FROM posts JOIN comments
