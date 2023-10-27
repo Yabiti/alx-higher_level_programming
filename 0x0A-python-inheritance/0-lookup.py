@@ -1,23 +1,8 @@
-#!/usr/bin/python3
+#!?usr/bin/python3
 
 def main():
-    conditional_exec()
-    
+    strings = "i love using git hub"
+    print(strings)
 
-
-def conditional_exec():
-    a,b = 1,2
-    if a < b:
-        print("a is lessthan b")
-    elif a > b:
-        print("a is greater than b")
-    else:
-        print("a is equak to b")
-
-def conditional_values():
-    a,b = 2,1
-    statements= "lessthan" if a<b else"notlessthan"
-    print(statements)
-
-if __name__ == "__main__":
+if __name__ =="__main__":
     main()
