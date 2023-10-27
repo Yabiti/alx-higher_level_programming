@@ -1,1 +1,1 @@
-SELECT * FROM customer WHERE post_id=12 published=1;
+SELECT posts.title
