@@ -1,1 +1,1 @@
-SELECT * FROM customer WHERE post_id=12;
+SELECT * FROM customer WHERE post_id=12 published=1;
