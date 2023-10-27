@@ -1,1 +1,1 @@
-SELECT * FRON comments WHERE id=12;
+SELECT * FROM comments WHERE id=12;
