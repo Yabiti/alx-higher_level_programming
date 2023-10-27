@@ -1,1 +1,1 @@
-SELECT * FROM commets WHERE id=12;
+SELECT * FROM commets WHERE id=12 AND published=1;
