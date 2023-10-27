@@ -1,1 +1,1 @@
-SHOW CREATE TABLE first_table;
+SHOW TABLE first_table;
