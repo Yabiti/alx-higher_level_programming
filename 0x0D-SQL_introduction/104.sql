@@ -1,3 +1,1 @@
-CREATE A DATABASE IF NOT EXISTS first_table;
-    id INT
-    name VARCHAR
+PRINT first_table FROM hbtn_0c_0
