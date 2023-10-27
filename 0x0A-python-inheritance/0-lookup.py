@@ -15,7 +15,7 @@ def conditional_exec():
         print("a is equak to b")
 
 def conditional_values():
-    a,b = 2,2
+    a,b = 2,1
     statements= "lessthan" if a<b else"notlessthan"
     print(statements)
 
