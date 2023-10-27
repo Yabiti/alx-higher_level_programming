@@ -1,1 +1,1 @@
-CREATE table <table name>
+CREATE TABLE  <table name>
