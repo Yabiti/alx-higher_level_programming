@@ -17,6 +17,7 @@ def conditional_exec():
 def conditional_values():
     a,b = 1,2
     statements= "lessthan" if a<b else"motlessthan"
+    print(statements)
 
 if __name__ == "__main__":
     main()
