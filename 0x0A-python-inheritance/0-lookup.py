@@ -6,6 +6,5 @@ def main():
 
     rawstrings = "i love using git /n but without any hobby it's useless"
     print(rawstrings)
-
 if __name__ =="__main__":
     main()
