@@ -11,4 +11,4 @@ print("socket has been created")
 try:
     socket.Bind((HOST, PORT))
 except socket.Error as msg:
-    print("Binding has failed. Error Code is: 'message' + str(msg[0]) + 'message' str(msg[1])")
+    print("Binding has failed. Error Code is: 'message' + str(msg[0]) + 'message' + (msg[1])")
