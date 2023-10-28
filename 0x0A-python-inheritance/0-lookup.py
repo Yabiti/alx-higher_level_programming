@@ -11,4 +11,4 @@ print('socket has been created')
 try:
     mySocket.bind((HOST, PORT))
 except socket.error as msg:
-    print("Binding has failed.Error Code is:")
+    print("Binding has failed.Error Code is: 'message' + str(msg[0]) + 'mesage' + msg(1)")
