@@ -1,10 +1,9 @@
-#!?usr/bin/python3
+import socket
+import sys
 
-def main():
-    strings = "i love using git hub"
-    print(strings)
+HOST = ""
 
-    rawstrings = "i love using git /n but without any hobby it's useless"
-    print(rawstrings)
-if __name__ =="__main__":
-    main()
+port = 9000
+
+mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print("let's hack everything")
