@@ -21,3 +21,5 @@ print("socket is now listening")
 
 while 1:
     address = mySocket.accept()
+    print('connected with ' + address[0] + ':' + str(address[1]))
+mySocket.close()
