@@ -10,4 +10,5 @@ print("socket has been created")
 
 try:
     socket.Bind((HOST, PORT))
-    
+except socket.Error as msg:
+    print("Binding has failed")
