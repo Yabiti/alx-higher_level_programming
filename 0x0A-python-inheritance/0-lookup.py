@@ -16,3 +16,5 @@ except socket.error as msg:
 print("socket bin is complete. Now we can proceed to make it listen...")
 mySocket.listen(10)
 print("socket is now listening")
+while 1:
+    address = mySocket.accept(0)
