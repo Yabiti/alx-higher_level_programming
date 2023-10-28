@@ -15,3 +15,4 @@ except socket.error as msg:
     sys.exit()
 print("socket bin is complete. Now we can proceed to make it listen...")
 mySocket.listen(10)
+print('socket is now listening')
