@@ -18,3 +18,6 @@ print("socket has been created, now lets listen")
 
 mySocket.listen(10)
 print("socket is now listening")
+
+while 1:
+    address = mySocket.accept()
