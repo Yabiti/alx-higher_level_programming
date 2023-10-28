@@ -13,3 +13,4 @@ try:
 except socket.error as msg:
     print("Binding has failed.Error Code is: 'message' + str(msg[0]) + 'mesage' + msg(1)")
     sys.exit()
+print("socket bin is complete. Now we can proceed to make it listen...")
