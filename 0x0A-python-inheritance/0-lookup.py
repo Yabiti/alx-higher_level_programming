@@ -6,7 +6,7 @@ HOST = ""
 PORT = 9000
 
 mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print("now we started how ethical hacking")
+print("now we started ethical hacking")
 
 try:
     mySocket.bind((HOST, PORT))
