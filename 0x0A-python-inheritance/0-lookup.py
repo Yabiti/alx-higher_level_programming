@@ -11,4 +11,4 @@ print("now we started ethical hacking")
 try:
     mySocket.bind((HOST, PORT))
 except socket.error as msg:
-    print("binding has failed. Error Code is: ' + str(msg[0]) + 'message' + msg[1] ")
+    print("Binding has failed. Error Code:'message' str(msg[0]) + 'message' str(msg[1]) ")
