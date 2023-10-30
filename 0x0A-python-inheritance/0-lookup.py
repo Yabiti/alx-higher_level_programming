@@ -15,4 +15,4 @@ except socket.error as msg:
     sys.exit()
 print("bind has been created, now it hasprocced to listen...")
 mySocket.listen(10)
-print("socket isnowlistening")
+print("socket is now listening")
