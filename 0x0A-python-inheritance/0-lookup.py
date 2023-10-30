@@ -10,3 +10,4 @@ print("socket has been created")
 
 try:
     mySocket.bind((HOST, PORT))
+except mySocket.error as msg:
