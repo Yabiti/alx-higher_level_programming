@@ -18,4 +18,4 @@ mySocket.listen(10)
 print("socket is now listening")
 while 1:
     address = socket.accept()
-    print("connectd with" + address[0] + str(address[1]))
+    print("connectd with" + address[0] + ':' str(address[1]))
