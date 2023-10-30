@@ -16,3 +16,7 @@ except mySocket.error as msg:
 print("binding has created, now let's proceed...")
 mySocket.listen(10)
 print("now we can listen")
+
+while 1:
+    address = mySocket.accept()
+    print('connectd with' address[0] + ";" + str(address[1]))
