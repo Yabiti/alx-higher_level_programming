@@ -17,6 +17,6 @@ print("bind has been created, now it hasprocced to listen...")
 mySocket.listen(10)
 print("socket is now listening")
 while 1:
-    address = socket.accept()
-    print("conected with" + address[0] + ':' + (straddres[1]))
+    address = mySocket.accept()
+    print("conected with" + address[0] + ':' + str(address[1]))
     mySocket.close()
