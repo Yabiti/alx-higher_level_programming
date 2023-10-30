@@ -5,3 +5,4 @@ HOST = ""
 
 PORT = 9090
 
+mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
