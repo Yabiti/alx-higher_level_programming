@@ -16,3 +16,5 @@ except socket.error as msg:
 print("binding has created. now let's make proceed...")
 mySocket.listen(10)
 print("socket has been created")
+while 1:
+    address = mySocket.accept()
