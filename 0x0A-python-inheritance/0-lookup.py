@@ -14,3 +14,4 @@ except socket.error as msg:
     print("Binding has failed.Error Code as: + str(msg[0] + 'message' (msg[1]))")
     sys.exit()
 print("socket bind is now complete. now we can make it proceed to listen...")
+mySocket.listen(10)
