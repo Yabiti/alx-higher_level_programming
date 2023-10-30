@@ -20,3 +20,4 @@ while 1:
     address = mySocket.accept()
     print("conected with" + address[0] + ':' + str(address[1]))
     mySocket.close()
+
