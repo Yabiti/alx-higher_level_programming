@@ -10,6 +10,6 @@ print("socket has been created")
 
 try:
     mySocket.bind((HOST, PORT))
-except socket.Error as msg:
+except socket.error as msg:
     print("Binding has failed.Error Code as: + str(msg[0] + 'message' (msg[1]))")
     sys.exit()
