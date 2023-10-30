@@ -18,4 +18,4 @@ mySocket.listen(10)
 print("now socket can listen")
 
 while 1:
-    address = mySocket.accept(0)
+    address = mySocket.accept()
