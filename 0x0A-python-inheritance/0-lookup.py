@@ -17,4 +17,5 @@ print("socket bind is now complete. now we can make it proceed to listen...")
 mySocket.listen(10)
 print("now socket can listen")
 
-address = 
+while 1:
+    
