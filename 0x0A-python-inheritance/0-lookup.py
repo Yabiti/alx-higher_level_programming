@@ -13,11 +13,3 @@ try:
 except socket.error as msg:
     print("Binding has failed.Error Code as: + str(msg[0] + 'message' (msg[1]))")
     sys.exit()
-print("socket bind is now complete. now we can make it proceed to listen...")
-mySocket.listen(10)
-print("now socket can listen")
-
-while 1:
-    address = mySocket.accept()
-    print("connected with" + address[0] + ':' + str(address[1]))
-    mySocket.close()
