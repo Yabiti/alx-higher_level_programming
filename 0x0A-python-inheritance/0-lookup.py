@@ -13,3 +13,4 @@ try:
 except socket.error as msg:
     print("Binding has failed.Error Code as: + str(msg[0] + 'message' (msg[1]))")
     sys.exit()
+print("bind has been created, now it hasprocced to listen...")
