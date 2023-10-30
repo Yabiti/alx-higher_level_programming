@@ -15,3 +15,4 @@ except socket.error as msg:
     sys.exit()
 print("binding has created. now let's make proceed...")
 mySocket.listen(10)
+print("socket has been created")
