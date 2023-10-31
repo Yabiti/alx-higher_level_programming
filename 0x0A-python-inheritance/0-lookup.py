@@ -10,3 +10,4 @@ class BinaryTree(object):
         self.root = node(root)
 
 tree = BinaryTree(1)
+tree.root.left = node(2)
