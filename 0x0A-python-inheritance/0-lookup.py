@@ -10,3 +10,4 @@ class BinatryTree(object):
 
 tree = BinatryTree(1)
 tree.root.left(2)
+tree.root.left.right(3)
