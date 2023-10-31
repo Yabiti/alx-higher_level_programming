@@ -12,4 +12,4 @@ tree = BinatryTree(1)
 tree.root.left = node(2)
 tree.root.left.right = node(3)
 tree.root.left.left = node(4)
-tree.root
+tree.root.right = node(5)
