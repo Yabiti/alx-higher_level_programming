@@ -9,6 +9,7 @@ class BinatryTree(object):
         self.root = node(root)
 
 tree = BinatryTree(1)
-tree.root.left(2)
+tree.root.left = node(2)
 tree.root.left.right(3)
 tree.root.left.left(4)
+tree.root.
