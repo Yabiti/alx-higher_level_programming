@@ -10,6 +10,7 @@ class BinatryTree(object):
     def preorder(self, start, traversal):
         if start:
             traversal += (str(start.value, "`"))
+            traversal = self.preorder_print(start, left, traversal)
 tree = BinatryTree(1)
 tree.root.left = node(2)
 tree.root.left.right = node(3)
