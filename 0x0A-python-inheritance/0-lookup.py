@@ -32,4 +32,3 @@ tree.root.right.right.right = node(7)
 tree.root.right.right.left = node(8)
 
 print(tree.print_tree("preorder"))
-
