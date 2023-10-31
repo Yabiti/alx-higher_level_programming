@@ -9,7 +9,7 @@ class BinatryTree(object):
         self.root = node(root)
     def preorder(self, start, traversal):
         if start:
-            traversal += (str(start.value, " "))
+            traversal += (str(start.value, "`"))
 tree = BinatryTree(1)
 tree.root.left = node(2)
 tree.root.left.right = node(3)
