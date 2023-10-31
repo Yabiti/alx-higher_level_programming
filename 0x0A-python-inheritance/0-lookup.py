@@ -19,4 +19,5 @@ tree.root.left.right = node(3)
 tree.root.left.left = node(4)
 tree.root.right = node(5)
 tree.root.right.left = node(6)
-print(tree.print_tree('preorder'))
+
+print(tree.print_tree("preorder"))
