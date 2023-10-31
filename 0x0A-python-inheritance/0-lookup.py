@@ -7,6 +7,7 @@ class node(object):
 class BinatryTree(object):
     def __init__(self, root):
         self.root = node(root)
+    def preorder_print(self, start, traversal):
 
 tree = BinatryTree(1)
 tree.root.left = node(2)
