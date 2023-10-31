@@ -12,6 +12,7 @@ class BinatryTree(object):
             traversal += (str(start.value, "`"))
             traversal = self.preorder_print(start.left, traversal)
             traversal = self.preorder_print(start.right, traversal)
+        return traversal
 tree = BinatryTree(1)
 tree.root.left = node(2)
 tree.root.left.right = node(3)
