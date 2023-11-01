@@ -7,6 +7,11 @@ class node(object):
 class BianryTree(object):
     def __init__(self, root):
         self.root = node(root)
+    
+    def preorder_print(self, start, traversal):
+        if start:
+            traversal += (str(start.value) + "")
+            traversal = self.preorder_print(self.left, traversal)
 
 
 tree = BianryTree(1)
