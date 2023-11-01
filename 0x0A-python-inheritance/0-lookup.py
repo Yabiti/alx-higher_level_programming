@@ -7,6 +7,10 @@ class node(object):
 class BinaryTree(object):
     def __inti__(self, root):
         self.root = node(root)
+    
+    def preorder_print(self, start, traversal):
+        if start:
+            traversal += (str(traversal))
 
 tree = BinaryTree(1)
 tree.root.left = node(2)
