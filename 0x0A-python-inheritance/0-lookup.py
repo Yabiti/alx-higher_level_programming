@@ -7,3 +7,8 @@ class node(object):
 class BianryTree(object):
     def __init__(self, root):
         self.root = node(root)
+
+
+tree = BianryTree(1)
+tree.root.left = node(2)
+tree.root.right = node(3)
