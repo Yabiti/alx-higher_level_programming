@@ -9,7 +9,7 @@ class BianryTree(object):
         self.root = node(root)
     def print_tree(self, traversal_type):
         if traversal_type == "preorder":
-            return traversal_type
+            return self.preorder_print(tree.root, "")
 
     def preorder_print(self, start, traversal):
         if start:
