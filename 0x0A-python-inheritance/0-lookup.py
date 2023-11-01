@@ -5,7 +5,7 @@ class node(object):
         self.right = None
 
 class BinaryTree(object):
-    def __inti__(self, root):
+    def __init__(self, root):
         self.root = node(root)
 
     def print_tree(self, traversal_type):
