@@ -10,7 +10,7 @@ class BinaryTree(object):
     
     def preorder_print(self, start, traversal):
         if start:
-            traversal += (str(traversal))
+            traversal += (str(start.value) + "") 
 
 tree = BinaryTree(1)
 tree.root.left = node(2)
