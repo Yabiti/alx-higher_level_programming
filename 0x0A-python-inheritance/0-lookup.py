@@ -5,4 +5,5 @@ class node(object):
         self.right = None
 
 class BianryTree(object):
-    
+    def __init__(self, root):
+        self.root = node(root)
