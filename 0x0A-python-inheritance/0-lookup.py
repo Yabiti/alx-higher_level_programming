@@ -4,4 +4,6 @@ class node(object):
         self.left = None
         self.right = None
 
-class Binary
+class BinaryTree(object):
+    def __inti__(self, root):
+        self.root = node(root)
