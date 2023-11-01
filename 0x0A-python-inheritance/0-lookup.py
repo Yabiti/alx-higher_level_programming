@@ -18,7 +18,7 @@ class BinaryTree(object):
 
     def preorder_print(self, start, traversal):
         if start:
-            taversal += (str(start.value) + "-")
+            traversal += (str(start.value) + "-")
             traversal = self.preorder_print(start.left, traversal)
             traversal = self.preorder_print(start.left, traversal)
         return traversal
