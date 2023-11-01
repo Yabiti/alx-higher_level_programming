@@ -23,4 +23,4 @@ tree = BianryTree(1)
 tree.root.left = node(2)
 tree.root.right = node(3)
 
-print(print.tree_tree("preoreder"))
+print(tree.print_tree("preoreder"))
