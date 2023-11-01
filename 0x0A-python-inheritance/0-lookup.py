@@ -7,7 +7,9 @@ class node(object):
 class BinaryTree(object):
     def __inti__(self, root):
         self.root = node(root)
-    
+    def print_tree(self, traversal_type):
+        if traversal_type == "preorder":
+            return self.preorder_print(tree.root, "")
     def preorder_print(self, start, traversal):
         if start:
             traversal += (str(start.value) + "")
