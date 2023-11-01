@@ -12,6 +12,8 @@ class BianryTree(object):
         if start:
             traversal += (str(start.value) + "")
             traversal = self.preorder_print(self.left, traversal)
+            traversal = self.preorder_print(self.right, traversal)
+        return traversal
 
 
 tree = BianryTree(1)
