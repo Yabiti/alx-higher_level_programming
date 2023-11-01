@@ -7,7 +7,10 @@ class node(object):
 class BianryTree(object):
     def __init__(self, root):
         self.root = node(root)
-    
+    def print_tree(self, traversal_type):
+        if traversal_type == "preorder":
+            return traversal_type
+
     def preorder_print(self, start, traversal):
         if start:
             traversal += (str(start.value) + "")
@@ -19,3 +22,5 @@ class BianryTree(object):
 tree = BianryTree(1)
 tree.root.left = node(2)
 tree.root.right = node(3)
+
+print(print.tree_tree("preoreder"))
