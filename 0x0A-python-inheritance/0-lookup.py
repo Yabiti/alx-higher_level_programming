@@ -1,4 +1,4 @@
-name = input("what's your name? ").strip().title()
-
-first, last = name.split(" ")
-print(f"hello, {first}")
+x= 1
+y= 3
+z = x + y
+print(z)
