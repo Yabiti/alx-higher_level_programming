@@ -4,6 +4,6 @@ def main():
 
 
 def square(n):
-    n * n
+    return n * n
 
 main()
