@@ -1,10 +1,6 @@
-score = int(input("score: "))
+x = int(input("what's x? "))
 
-if score >= 90:
-    print("Grade: A")
-elif score >=80:
-    print("Grade: B")
-elif score >= 70:
-    print("Grade: C")
+if x % 2 == 0:
+    print("Even")
 else:
-    print("Grade: F")
+    print("odd")
