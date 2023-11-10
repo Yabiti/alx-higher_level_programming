@@ -1,5 +1,3 @@
-x  = float(input("what's x? "))
-y = float(input("what's y? "))
+name = input("what's your name? ")
 
-z = round(x / y)
-print(z)
+print(f"hello, {name}")
