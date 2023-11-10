@@ -1,9 +1,10 @@
-x = int(input("what's x? "))
-y = int(input("what's y? "))
+score = int(input("score: "))
 
-if x > y:
-    print("x is greater than y")
-elif x < y:
-    print("x is less than y")
+if score >= 90:
+    print("Grade: A")
+elif score >=80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
 else:
-    print("x is equal to y")
+    print("Grade: F")
