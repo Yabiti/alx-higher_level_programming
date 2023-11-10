@@ -1,4 +1,4 @@
-def hello():
+def hello(to):
     print("hello")
 
 name = input("what's your name? ")
