@@ -1,9 +1,8 @@
-name = input("what's your name? ")
-
-match name:
-    case "harry":
-        print("hell")
-    case "hermione":
-        print("hell")
-    case _:
-        print("who?")
+def weekday(n):
+    n = input("what's the day today? ")
+    print(weekday)
+    match n:
+        case 0: return "monday"
+        case 1: return "tuesday"
+        case 2: return "wednesday"
+        case 4: return "invalid day"
