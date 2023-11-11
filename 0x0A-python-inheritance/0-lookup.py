@@ -4,6 +4,10 @@ def main():
 
 def get_number():
     while True:
-        n = int(input("what's the number? "))
+        n = int(input("what's the n? "))
         if n > 0:
             return n
+def meow(n):
+    print("meow")
+
+main()
