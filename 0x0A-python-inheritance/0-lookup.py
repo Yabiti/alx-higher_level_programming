@@ -1,4 +1,2 @@
-i = 1
-while i <= 5:
+for i in (0, 1, 2):
     print("meow")
-    i += 1
