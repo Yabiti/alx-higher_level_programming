@@ -5,3 +5,5 @@ match name:
         print("hell")
     case "hela":
         print("seol")
+    case _:
+        print("who?")
