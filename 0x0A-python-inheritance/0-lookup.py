@@ -1,10 +1,8 @@
-def main():
-    x = int(input("what's x? "))
-    if is_even(x):
-        print("Even")
-    else:
-        print("odd")
+name = input("what's your name? ")
 
-def is_even(n):
-    return n % 2 == 0
-main()
+if name == "barni":
+    print("A.a")
+if name == "yab":
+    print("mebrat")
+else:
+    print("who?")
