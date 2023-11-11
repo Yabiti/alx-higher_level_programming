@@ -1,6 +1,6 @@
 while True:
-    x = input("what's n? ")
-    if x > 0:
+    n = input("what's x? ")
+    if n < 0:
         break
-for _ in range(5):
+for _ in range(n):
     print("meow")
