@@ -8,6 +8,6 @@ def get_number():
         if n > 0:
             return n
 def meow(n):
-    print("meow")
-
+    for _ in range(n):
+        print("meow")
 main()
