@@ -7,7 +7,3 @@ def get_number():
         n = int(input("what's the number? "))
         if n > 0:
             return n
-def meow(n):
-    for _ in range(n):
-        print("meow")
-main()
