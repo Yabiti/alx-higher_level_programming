@@ -1,3 +1,4 @@
 i = 3
-while i < 50:
+while i != 0:
     print("meow")
+    i = i - 1
