@@ -1,6 +1,6 @@
 def main():
     number = get_number()
-    meow()
+    meow(5)
 
 def get_number():
     while True:
