@@ -1,8 +1,7 @@
 name = input("what's your name? ")
 
-if name == "barni":
-    print("A.a")
-if name == "yab":
-    print("mebrat")
-else:
-    print("who?")
+match name:
+    case "harry":
+        print("hell")
+    case "hela":
+        print("seol")
