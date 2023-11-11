@@ -1,13 +1,4 @@
-def main():
-    number = get_number()
-    meow(number)
+students = ("hermoine", "helen", "robin")
 
-def get_number():
-    while True:
-        n = int(input("what's  n? "))
-        if n > 0:
-            return n
-def meow(n):
-    for _ in range(n):
-        print("meow")
-main()
+for students in students:
+    print("students")
