@@ -7,4 +7,3 @@ if (process.argv.slice(2).length < 1) {
   } else {
     console.log('Arguments found');
   }
-  
