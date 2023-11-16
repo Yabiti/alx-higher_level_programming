@@ -3,22 +3,19 @@
     <head>
         <title>cs50 HARVARD</title>
         <script>
-            function hello() {
-                let heading = document.querySelector('h1');
-                if (heading.innerHTML === "Fucking Blinders!") {
-                heading.innerHTML = "Good Bye!";
-                } else {
-                    heading.innerHTML = "Fucking Blinders!";
+            document.addEventListener('DOMContentLoaded', function(){
+                document.querySelector('form').onsubmit = function() {
+                    const name = document.querySelector("#name").value;
+                    alert(`hello, ${name}!`)
                 }
-            
-            }
+            })
         </script>
     </head>
     <body>
         <h1>Keep Going</h1>
         <form>
             <input autofocus id="name" placeholder="Name" type="text">
-            <input type="submit"> 
+            <input type="Submit"> 
         </form>
     </body>
     </html>
