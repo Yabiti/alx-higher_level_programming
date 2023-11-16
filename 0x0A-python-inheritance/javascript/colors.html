@@ -4,16 +4,11 @@
         <title> CS50 HARVARD</title>
     <script>
         document.addEventListener('DOMContentLoadeed', function(){
-            document.querySelector('#white').onclick.style = 'white';
+            document.querySelector('#red').onclick = function() {
+                document.querySelector('#hello').style.color = 'red';
+            };
         });
 
-        document.addEventListener('DOMContentLoadeed', function(){
-            document.querySelector('#blue').onclick.style = 'blue';
-        });
-
-        document.addEventListener('DOMContentLoadeed', function(){
-            document.querySelector('#green').onclick.style = 'green';
-        });
     </script>
     </head>
     <body>
