@@ -4,10 +4,11 @@
         <title>cs50 HARVARD</title>
         <script>
             document.addEventListener('DOMCOntentLoaded', function() {
+                
                 document.querySelector('form').onsubmit = function () {
                     const name = document.querySelector('#name').value;
                     alert(`hello, ${name}!`);
-                }
+                };
             });
         </script>
     </head>
