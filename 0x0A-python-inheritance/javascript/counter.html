@@ -7,13 +7,12 @@
             function count() {
                 counter++;
                 document.querySelector('h1').innerHTML = counter;
-
+            }
                 if (counter % 10 == 0)
                 alert(`count is now ${counter}`)
             document.addEventListener('DOMcontentLoaded', function() {
                 document.querySelector('button').onclick = count;
             });
-            }
         </script>
     </head>
     <body>
