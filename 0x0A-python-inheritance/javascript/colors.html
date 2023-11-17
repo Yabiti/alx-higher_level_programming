@@ -4,8 +4,12 @@
         <title>CS50 HARVARD</title>
         <script>
             document.addEventListener('DOMContontLoaded', function() {
-                document.querySelectorAll('button').onclick = function() {
-                    
+                document.querySelectorAll('button').forEach(function(button)) {
+                    button.onclick = function() {
+                        document.querySelector('#hello').style.color = button.dataset.color;
+                    }
+                }
+
                 }
             });
         </script>
