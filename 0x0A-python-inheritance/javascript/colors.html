@@ -6,7 +6,7 @@
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelectorAll('button').forEach(function(button) {
                     button.onclick = function() {
-                        querySelector('#hello').style.color = button.dataset.color;
+                        document.querySelector('#hello').style.color = button.dataset.color;
                     }
 
                 }); 
