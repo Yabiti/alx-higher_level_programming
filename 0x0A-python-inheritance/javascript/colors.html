@@ -5,6 +5,9 @@
         <script>
             document.addEventListener('DOMContontLoaded', function() {
                 document.querySelectorAll('button').forEach(function(button) {
+                    button.onclick = function() {
+                        querySelector('#hello').style.color = button.dataset.color;
+                    }
 
                 }); 
 
