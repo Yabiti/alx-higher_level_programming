@@ -2,6 +2,13 @@
 <html lang="eng">
     <head>
         <title>CS50 HARVARD</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                document.querySelector('#red').onclick = function() {
+                    document.querySelector('#name').style.color = 'red';
+                }
+            });
+        </script>
     </head>
     <body>
         <h1 id="hello">hello!</h1>
