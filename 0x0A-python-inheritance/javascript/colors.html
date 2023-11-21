@@ -6,8 +6,9 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('#button').button = function(button) {
-                button.onclick = document.querySelector('#Hello').color.style = button.dataset
-            }
+                button.onclick = function() {
+                    document.querySelector('#Hello').color.style = button.dataset
+                }
             
         });
     </script>
