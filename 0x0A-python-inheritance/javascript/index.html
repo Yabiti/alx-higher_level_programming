@@ -4,10 +4,11 @@
         <title>cs50 HARVARD</title>
         <script>
             function hello() {
-             if (document.querySelector('h1').innerHTML === 'Hello!') {
-                document.querySelector('h1').innerHTML = 'Goodbye!';
+                let heading = document.querySelector('h1');
+             if (heading.innerHTML === 'Hello!') {
+                heading.innerHTML = 'Goodbye!';
              } else {
-                document.querySelector('h1').innerHTML = 'Hello!';
+                heading.innerHTML = 'Hello!';
              }
             }
         </script>
