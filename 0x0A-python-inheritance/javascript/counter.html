@@ -7,15 +7,17 @@
         function count() {
             counter++;
             document.querySelector('h1').innerHTML = counter;
-
             if (counter % 10 === 0) {
                 alert(`counter is now ${counter}`);
             }
         }
+        document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('button').onclick = count;
+        });
         </script>
     </head>
     <body>
         <h1>0!</h1>
-        <button onclick="count()">Count</button>
+        <button>Count</button>
     </body>
     </html>
