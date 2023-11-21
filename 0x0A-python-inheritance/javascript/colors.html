@@ -5,12 +5,11 @@
     </head>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            document.querySelector('#button').button = function(button) {
+            document.querySelector('#button').forEach (function(button){
                 button.onclick = function() {
-                    document.querySelector('#Hello').color.style = button.dataset
+                    document.querySelector('#Hello').style.color = button.dataset.color;
                 }
-            }
-            
+            })
         });
     </script>
     <body>
