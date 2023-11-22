@@ -2,27 +2,5 @@
 <html lang="eng">
     <head>
         <title>CS50HARVARD</title>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                document.querySelector('form').onsubmit = () => {
-                    const task = document.querySelector('#task').value;
-                    const li = document.createElement('li');
-                    li.innerHTML = task;
-
-                    document.querySelector('#tasks').append(li);
-                    document.querySelector('#tasks').value = '';
-                    return false;
-                }
-            });
-        </script>
     </head>
-    <body>
-        <h1>Tasks</h1>
-        <ul id="tasks">
-        </ul>
-        <form>
-            <input id="task" placeholder="New Task" type="text">
-            <input type="submit">
-        </form>
-    </body>
 </html>
