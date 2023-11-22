@@ -5,6 +5,11 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('#submit').disabled = true;
+            if (document.querySelector('#task').value.lenght > 0) {
+                document.querySelector('#submit').disabled = true;
+            } else {
+                document.querySelector('#submit').disabled = true;
+            }
 
             document.querySelector('#task').onkeyup = function() {
                 document.querySelector('#submit').disabled = false;
