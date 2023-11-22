@@ -2,6 +2,15 @@
 <html lang="eng">
     <head>
         <title>CS50HARVARD</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('form').onsubmit = () => {
+                    document.querySelector('#tasks').value;
+                    console.log(task);
+                    return false;
+                }
+            })
+        </script>
     </head>
     <body>
         <h1>Tasks</h1>
