@@ -6,9 +6,10 @@
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('form').onsubmit = () => {
                    const task = document.querySelector('#task').value;
-                    document.createElement('li');
-                    li.innerHTML = task;
-                    document.querySelector('#task').append(li);
+                   const li = document.createElement('li');
+                   li.innerHTML = task;
+
+                   document.querySelector('#task').append(li);
                     return false;
                 }
             });
