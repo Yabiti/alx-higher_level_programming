@@ -6,7 +6,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
            document.querySelector('select').onchange = function() {
-            document.querySelector('#Hello').style.color = thisvalue;
+            document.querySelector('#Hello').style.color = this.value;
            }
         });
     </script>
