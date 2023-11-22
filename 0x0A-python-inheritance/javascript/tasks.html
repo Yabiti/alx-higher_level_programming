@@ -6,6 +6,8 @@
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('form').onsubmit = () => {
                     const task = document.querySelector('#tasks').value;
+                    console.log(task);
+                    return false;
                 }
             });
         </script>
