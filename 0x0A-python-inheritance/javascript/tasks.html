@@ -5,10 +5,7 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('form').onsubmit = () => {
-                    const li = document.createElement('li');
-                    li.innerHTML = task;
-                    document.querySelector('#tasks').append(li);
-                        return false;
+                    const task = document.querySelector('#tasks').value;
                 }
             });
         </script>
@@ -17,7 +14,7 @@
         <h1>Tasks</h1>
         <ul id="tasks"></ul>
         <form>
-            <input id="tasks" placeholder="New Tasks" type="text">
+            <input id="task" placeholder="New Task" type="text">
             <input type="submit">
         </form>
     </body>
