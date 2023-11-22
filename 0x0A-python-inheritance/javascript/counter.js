@@ -8,3 +8,4 @@ let counter = 0;
                     document.querySelector('button').onclick = count;
                     setInterval(count, 15);
                 });
+        
