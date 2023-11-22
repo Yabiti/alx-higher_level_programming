@@ -10,7 +10,8 @@
                    li.innerHTML = task;
 
                    document.querySelector('#tasks').append(li);
-                   document.querySelector('#tasks').value = '';
+                   document.querySelector('#submit').disabled = true;
+                   document.querySelector('#task').value = '';
                     return false;
                 }
             });
@@ -23,6 +24,6 @@
     </body>
     <form>
         <input id="task" placeholder="New Task" type="text">
-        <input type="submit">
+        <input id="submit" type="submit">
     </form>
 </html>
