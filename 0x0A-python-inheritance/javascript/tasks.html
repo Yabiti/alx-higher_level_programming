@@ -4,6 +4,8 @@
         <title>CS50HARVARD</title>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
+
+                document.querySelector('#submit').disabled = true;
                 document.querySelector('form').onsubmit = () => {
                  const task = document.querySelector('#task').value;
                 const li = document.createElement('li');
