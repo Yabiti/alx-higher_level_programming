@@ -1,4 +1,4 @@
-num = int(input("Number:"))
+num = int(input("Number: "))
 
 if num > 0:
     print("number is positive")
