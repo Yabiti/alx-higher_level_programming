@@ -1,4 +1,4 @@
-x = input("number: ")
+x = int(input("number: "))
 if x > 0:
     print("number is greater than 0")
 elif x < 0:
