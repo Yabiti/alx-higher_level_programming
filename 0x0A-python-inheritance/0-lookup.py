@@ -2,8 +2,8 @@ s = set()
 
 s.add(1)
 s.add(2)
+s.add(3)
 
-s.remove(1)
 print(s)
 
-print(f"the set has {len(s)} elements")
+print(f"string has {len(s)} elements.")
