@@ -5,6 +5,7 @@ function count() {
     let counter = localStorage.getItem(`counter`);
     counter++;
     document.querySelector('h1').innerHTML = counter;
+    
                
     }
     document.addEventListener('DOMContentLoaded', function() {
