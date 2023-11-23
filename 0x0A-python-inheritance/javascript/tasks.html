@@ -7,9 +7,9 @@
 
                 document.querySelector('#submit').disabled = true;
                 if (document.querySelector('#task').value.lenght > 0){
-                    document.querySelector('#submit').disabled = false;
-                } else {
                     document.querySelector('#submit').disabled = true;
+                } else {
+                    document.querySelector('#submit').disabled = false;
                 }
                 document.querySelector('#task').onkeyup = () => {
                     document.querySelector('#submit').disabled = false;
