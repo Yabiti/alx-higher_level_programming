@@ -1,3 +1,5 @@
-name = "harry"
-print(name[0])
-print(name[1])
+names = ["hermione", "harry", "ron"]
+print(names)
+names.append("draco")
+names.sort()
+print(names)
