@@ -7,7 +7,7 @@
                 document.querySelector('form').onsubmit = () => {
                  const task = document.querySelector('#task').value;
                 const li = document.createElement('li');
-                innerHTML = task;
+                li.innerHTML = task;
 
                 document.querySelector('#task').append(li)
 
