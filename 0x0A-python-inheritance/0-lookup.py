@@ -1,7 +1,8 @@
-x = int(input("number: "))
-if x > 0:
-    print("number is greater than 0")
-elif x < 0:
-    print("number is lessthan 0")
+num = int(input("Number:"))
+
+if num > 0:
+    print("number is positive")
+elif num < 0:
+    print("number is negative")
 else:
     print("number is 0")
