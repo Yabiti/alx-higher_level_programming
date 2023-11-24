@@ -7,4 +7,3 @@ class Flight():
             return False
         self.passengers.append(name)
         return True
-    def open_seata(self):
