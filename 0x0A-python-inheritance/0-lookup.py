@@ -9,4 +9,3 @@ class Flight():
         return True
     def open_seata(self):
         return self.capacity - len(self.passsengers)
-        
