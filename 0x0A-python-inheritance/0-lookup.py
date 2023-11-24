@@ -5,4 +5,3 @@ class Flight():
     def add_passengers(self, name):
         if not self.open_seats():
             return False
-        self.passengers.append(name)
