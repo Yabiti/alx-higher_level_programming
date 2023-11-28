@@ -1,4 +1,4 @@
-names = ["Harry", "Hermione", "Ron"]
+name = "Harry"
 
-for name in names:
-    print(name)
+for char in name:
+    print(char)
