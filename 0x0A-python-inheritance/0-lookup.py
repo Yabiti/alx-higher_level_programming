@@ -1,4 +1,2 @@
-name = "Harry"
-
-for char in name:
-    print(char)
+def square(x):
+    return x * x
