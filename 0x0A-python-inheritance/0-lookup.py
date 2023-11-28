@@ -1,8 +1,5 @@
-num = int(input("numbers: "))
-
-if num > 0:
-    print("Number is positive")
-elif num < 0:
-    print("number is negative")
-else:
-    print("Number is zero")
+names = ["harry","hermione", "draco"]
+print(names)
+names.append("draco")
+names.sort()
+print(names)
