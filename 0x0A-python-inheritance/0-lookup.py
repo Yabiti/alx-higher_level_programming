@@ -1,12 +1,4 @@
-s = set()
+names = ["Harry", "Hermione", "Ron"]
 
-s.add(1)
-s.add(2)
-s.add(3)
-s.add(3)
-s.add(4)
-s.add(4)
-
-s.remove(2)
-
-print(f"the set has{len(s)} elements.")
+for name in names:
+    print(name)
