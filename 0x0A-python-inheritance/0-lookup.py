@@ -1,2 +1,1 @@
-def square(x):
-    return x * x
+name = input("whats's your name? ")
