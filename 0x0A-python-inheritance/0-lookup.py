@@ -1,3 +1,5 @@
 quiz1 = input("who the fuck are you?")
 quiz2 = input("who is behind you?")
 quiz3 = input("did you have any one to call?")
+quiz4 = input("who is your wife?")
+quiz5 = input("call her now")
