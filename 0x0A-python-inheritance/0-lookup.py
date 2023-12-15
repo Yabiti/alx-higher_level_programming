@@ -1,2 +1,1 @@
-name= input("what's th fuck is name? ")
-print(name)
+print("welcome home motherfucker!")
