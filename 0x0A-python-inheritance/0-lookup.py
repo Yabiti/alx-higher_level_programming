@@ -1,1 +1,2 @@
-print(round(3.14159))
+name= input("what's th fuck is name? ")
+print(name)
