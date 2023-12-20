@@ -1,4 +1,5 @@
-num1 = int(input("first number "))
-num2 = int(input("Second number "))
+n1 = 4
+n2 = 5
 
-print("the answer to", num1, "/", num2, "is", num1 / num2)
+q = "what is",+ str(n1), + "+", + str(n2) + "?"
+user_answer = (q)
