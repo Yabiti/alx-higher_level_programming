@@ -1,8 +1,8 @@
-def order_car(car_type, manufacturing_year):
-    car = "this car has", car_type , "and", manufacturing_year
-    return car_type
-first_car = order_car("toyota", 2018)
+def order_car(car_type, model):
+    car = "this car is "+ car_type + " and model is " + model 
+    return car
+first_car = order_car("toyota", "land cruiser")
 print(first_car)
 
-second_car = order_car("buggati", 2023)
+second_car = order_car("nissan", "v8")
 print(second_car)
