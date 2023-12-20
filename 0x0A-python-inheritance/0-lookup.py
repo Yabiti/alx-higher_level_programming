@@ -3,3 +3,6 @@ def order_pizza(pizza_type, extra_topping):
     return pizza
 first_pizza = order_pizza("pepo", "extra_cheese")
 print(first_pizza)
+
+second_pizza = order_pizza("lemo", "small_cheese")
+print(second_pizza)
