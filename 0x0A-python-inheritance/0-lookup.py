@@ -10,3 +10,5 @@ q = "what is " + str(n1) + "-" + str(n2) + "?" + " ans: "
 user_answer= input(q)
 print("your anser is", user_answer)
 print("the correct answer is ", n1 - n2)
+
+q = "what is", + str(n1) + "*" + str(n2) + "?" + " ans:"
