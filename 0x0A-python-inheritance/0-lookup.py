@@ -1,8 +1,4 @@
-def order_pizza(pizza_type, extra_topping):
-    pizza = "make a", pizza_type , "with", extra_topping, "."
-    return pizza
-first_pizza = order_pizza("pepo", "extra_cheese")
-print(first_pizza)
-
-second_pizza = order_pizza("lemo", "small_cheese")
-print(second_pizza)
+def add_numbers(sum1 , sum2):
+    sum_result = sum1 + sum2
+    return sum_result
+add_numbers = (12, 23)
