@@ -1,5 +1,3 @@
-def add_numbers(sum1 , sum2):
-    sum_result = sum1 + sum2
-    return sum_result
-add_numbers = (12, 23)
-print(add_numbers)
+def order_car(car_type, manufacturing_year):
+    car = "this car has", car_type , "and", manufacturing_year
+    return car_type
