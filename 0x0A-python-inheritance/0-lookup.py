@@ -3,4 +3,3 @@ def calculate(n1, n2 ,n3):
     print(calculate(3,7,5))
 
     print(calculate(3,5))
-    
