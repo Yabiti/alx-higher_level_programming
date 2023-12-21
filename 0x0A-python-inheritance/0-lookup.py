@@ -1,4 +1,3 @@
-counter = 1
+counter = 5
 while counter <= 10:
-    print(1)
-    counter = counter + 1
+    print(5)
