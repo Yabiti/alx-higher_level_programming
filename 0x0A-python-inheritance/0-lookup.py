@@ -1,5 +1,4 @@
 counter = 9
 while counter <= 10:
-    print(5)
-    counter = counter + 1
-    
+    print(counter)
+counter = counter + 1
