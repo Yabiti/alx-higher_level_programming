@@ -1,4 +1,4 @@
-counter = 9
-while counter <= 10:
+counter = 10
+while counter <= 50:
     print(counter)
-    counter = counter + 1
+    counter = counter - 1
