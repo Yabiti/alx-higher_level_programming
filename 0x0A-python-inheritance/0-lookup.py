@@ -1,6 +1,6 @@
 score = 0
-first_name, Last_name = input("what's your name? ")
-print("hello", first_name + Last_name, "welcome to maths test")
+first_name = input("what's your name? ")
+print("hello" , first_name,"welcome to maths test")
 print('be fucking  ready')
 
 user_answer = input("what's 6 + 7 ")
