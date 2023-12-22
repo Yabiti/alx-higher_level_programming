@@ -1,5 +1,5 @@
 score = 0
-print(score + 1)
+print(score >= 1)
 first_name = input("what's your name? ")
 print("hello" , first_name,"welcome to maths test")
 print('be fucking  ready')
