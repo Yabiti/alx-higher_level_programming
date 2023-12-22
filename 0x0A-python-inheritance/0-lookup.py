@@ -4,3 +4,4 @@ def order_pizza(pizza_type, Extra_topping):
 first_pizza = order_pizza("pepperoni", "lice")
 print(first_pizza)
 second_pizza = order_pizza("pepperoni", "slucce")
+print(second_pizza)
