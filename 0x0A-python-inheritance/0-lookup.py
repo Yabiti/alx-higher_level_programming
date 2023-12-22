@@ -12,9 +12,14 @@ print("user_answer", user_answer)
 correct_answer = 6 - 7
 
 
-user_answer = input("what's 6 + 7 ")
+user_answer = input("what's 6 * 7 ")
 print("user_answer", user_answer)
-correct_answer = 6 + 7
+correct_answer = 6 * 7
+
+
+user_answer = input("what's 6 / 7 ")
+print("user_answer", user_answer)
+correct_answer = 6 / 7
 
 print("correct_answer", correct_answer)
 if correct_answer == user_answer:
