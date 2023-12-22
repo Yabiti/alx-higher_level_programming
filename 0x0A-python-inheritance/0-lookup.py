@@ -8,4 +8,4 @@ correct_answer = 6 + 7
 print("correct_answer", correct_answer)
 if correct_answer == user_answer:
     score = score + 1
-    print("score", score)
+print("score", score)
