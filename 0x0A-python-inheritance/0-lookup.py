@@ -1,4 +1,4 @@
-score = 0
+score = print("score")
 
 first_name = input("what's your name? ")
 print("hello" , first_name,"welcome to maths test")
