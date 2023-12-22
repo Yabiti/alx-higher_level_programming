@@ -1,7 +1,7 @@
 def order_metn(berbere, shro, mitmita):
     metn = "make a " + berbere + "with" + shro + "and" +  mitmita + "."
     return metn
-first_order = order_metn("berbere")
+first_order = order_metn("berbere", "skillos", "7killos")
 print(first_order)
 second_order = order_metn("shro")
 print(second_order)
