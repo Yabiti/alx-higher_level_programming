@@ -5,3 +5,5 @@ def order_metn(berbere, shro, mitmita):
     return metn
 first_order = order_metn("berbere")
 print(first_order)
+second_order = order_metn("shro")
+print(second_order)
