@@ -1,6 +1,7 @@
 score = 0
 name = input("what's your name? ")
 print("hello", name, "welcome to maths test")
+print('be ready')
 
 user_answer = input("what's 6 + 7 ")
 print("user_answer", user_answer)
