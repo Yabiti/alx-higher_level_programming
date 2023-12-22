@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """My list
 
-Author: Kanneh
+Author: Yabiti
 """
 
 
