@@ -7,4 +7,7 @@ def answer_feedback(user_ans, correct_ans):
     print("user_answer: ", user_ans)
     print("correct_answer", correct_ans)
 
+n1 = 5
+n2 = 7
 
+print_question(n1, "+", n2)
