@@ -5,3 +5,7 @@ def print_question(num1 , op , num2):
 def answer_feedback(user_ans, correct_ans):
     print("user's answer is: ", user_ans)
     print("correct_answer is: ", correct_ans)
+
+n1 = 5
+n2 = 10
+print_question(n1, "+", n2):
