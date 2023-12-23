@@ -11,3 +11,5 @@ n1 = 5
 n2 = 7
 
 print_question(n1, "+", n2)
+user_ans = input("Ans ")
+correct_ans = n1 + n2
