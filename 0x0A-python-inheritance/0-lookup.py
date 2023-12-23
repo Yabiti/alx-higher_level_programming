@@ -15,3 +15,9 @@ user_ans = input("Ans ")
 correct_ans = n1 + n2
 answer_feedback(user_ans, correct_ans)
 
+print_question(n1, "-", n2)
+user_ans = input("Ans ")
+correct_ans = n1 - n2
+answer_feedback(user_ans, correct_ans)
+
+
