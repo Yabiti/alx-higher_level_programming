@@ -5,3 +5,4 @@ q = "what is " + str(n1) + "+" + str(n2) + "?"
 user_answer = input(q)
 print("user_answer", user_answer)
 correct_answer = n1 + n2
+print("correct_answer", correct_answer)
