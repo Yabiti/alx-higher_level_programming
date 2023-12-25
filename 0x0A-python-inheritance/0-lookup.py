@@ -31,3 +31,5 @@ def calculate_answer(n1, n2 , op):
         return n1 * n2
     elif op == "/":
         return int(n1 / n2)
+    else:
+        return "invalid operator"
