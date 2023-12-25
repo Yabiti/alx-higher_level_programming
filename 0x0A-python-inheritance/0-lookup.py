@@ -3,7 +3,7 @@ def greet_user(user_name):
     welcome_messsage = "Hello " + user_name + "welcome to math test"
     print(welcome_messsage)
 
-def print_qusetion(num1, num2 ,op):
+def print_question(num1, num2 ,op):
     q = "what is " + str(num1) + op + str(num2) + "? "
     print(q)
 
@@ -47,3 +47,5 @@ while total < 5:
     num2 = random.randint(1,10)
     op_num = random.randint(1,4)
     op = choose_opretator(op_num)
+
+    print_qusetion
