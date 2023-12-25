@@ -9,3 +9,15 @@ def print_qusetion(num1, num2 ,op):
 def print_result(user_name, score):
     farewell_message = farewell_message = "thanks " + user_name + "your score is" + str(score) + "out of 5"
     print(farewell_message)
+
+def choose_opretator(op_n):
+    if op_n == 1:
+        return "-"
+    elif op_n == 2:
+        return "+"
+    elif op_n == 3:
+        return "*"
+    elif op_n == 4:
+        return "/"
+    else:
+        return "invalid operator"
