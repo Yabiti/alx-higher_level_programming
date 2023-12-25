@@ -6,3 +6,6 @@ print(welcome_message)
 
 num1 = random.randint(1, 5)
 num2 = random.randint(1, 5)
+op = "+"
+
+q = "what is " + str(num1) + "+" + str(num2) + "? "
