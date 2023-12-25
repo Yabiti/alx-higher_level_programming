@@ -48,4 +48,10 @@ while total < 5:
     op_num = random.randint(1,4)
     op = choose_opretator(op_num)
 
-    print_qusetion
+    print_question(num1, num2, op)
+    user_answer = input("Ans: ")
+    correct_answer = calculate_answer(num1, num2, op)
+
+    if user_answer == correct_answer:
+        print("correct_answer. ")
+        score = score + 1
