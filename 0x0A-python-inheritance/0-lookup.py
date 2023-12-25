@@ -10,12 +10,14 @@ def print_question(num1, num2, op):
 def choose_operator(op_n):
     if op_n == 1:
         return "_"
-    if op_n == 2:
+    elif op_n == 2:
         return "+"
-    if op_n == 3:
+    elif op_n == 3:
         return "*"
-    if op_n == 4:
+    elif op_n == 4:
         return "/"
+    else:
+        return "invalid oprator"
 def print_result(user_name):
     farewell_message = "thanks for taking this test" +  user_name + "we'll send your result soon"
     print(farewell_message)
