@@ -1,3 +1,4 @@
+import random
 def greet_user(user_name):
     welcome_messsage = "Hello " + user_name + "welcome to math test"
     print(welcome_messsage)
@@ -43,3 +44,7 @@ total = 0
 
 while total < 5:
     num1 = random.randint(1, 10)
+    num2 = random.randint(1,10)
+
+    op = choose_opretator(op_num)
+    op_num = random.randint(1,4)
