@@ -23,4 +23,6 @@ def choose_opretator(op_n):
         return "invalid operator"
 
 def calculate_answer(n1, n2 , op):
+    if op == "-":
+        return n1 - n2
     
