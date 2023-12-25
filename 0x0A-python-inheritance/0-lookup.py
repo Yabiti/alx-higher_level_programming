@@ -38,3 +38,5 @@ user_name = input("Enter your name ")
 
 greeting = greet_user(user_name)
 
+score = 0
+total = 0
