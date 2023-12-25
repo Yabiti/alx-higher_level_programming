@@ -1,3 +1,4 @@
+import random
 def greet_user(user_name):
     welcome_message = "hello" + user_name + "welcome to math test Good Luck!"
     print(welcome_message)
@@ -22,3 +23,5 @@ user_name = input("please enter your name ")
 greet_user(user_name)
 
 num1 = random.randint(1,10)
+num2 = random.randint(1,10)
+op = "+"
