@@ -25,3 +25,9 @@ greet_user(user_name)
 num1 = random.randint(1,10)
 num2 = random.randint(1,10)
 op = "+"
+
+print_question(num1 , num2 , op)
+user_answer = input("Ans: ")
+correct_answer = num1 + num2
+print("your answer is ", user_answer)
+print("The correct answer is ", correct_answer)
