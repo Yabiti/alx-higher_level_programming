@@ -7,3 +7,5 @@ print(name)
 
 num1 = random.randint(1,5)
 num2 = random.randint(1,5)
+op = "+"
+
