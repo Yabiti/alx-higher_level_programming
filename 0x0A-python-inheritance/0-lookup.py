@@ -31,3 +31,11 @@ user_answer = input("Ans: ")
 correct_answer = num1 + num2
 print("your answer is ", user_answer)
 print("The correct answer is ", correct_answer)
+
+num1 = random.randint(1,10)
+num2 = random.randint(1,10)
+op = "-"
+user_answer = input("Ans: ")
+correct_answer = num1 + num2
+print("Ypur answer is ", user_answer)
+print("the correct answer is ", correct_answer)
