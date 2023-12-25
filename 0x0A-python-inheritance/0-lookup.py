@@ -1,3 +1,3 @@
 import random
 
-print(random.randint(50,100))
+name = input("what's your name? ")
