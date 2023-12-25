@@ -21,3 +21,6 @@ def choose_opretator(op_n):
         return "/"
     else:
         return "invalid operator"
+
+def calculate_answer(n1, n2 , op):
+    
