@@ -33,3 +33,8 @@ def calculate_answer(n1, n2 , op):
         return int(n1 / n2)
     else:
         return "invalid operator"
+
+user_name = input("Enter your name ")
+
+greeting = greet_user(user_name)
+
