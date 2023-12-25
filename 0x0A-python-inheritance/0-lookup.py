@@ -18,3 +18,7 @@ def choose_operator(op_n):
 def print_result(user_name):
     farewell_message = "thanks for taking this test" +  user_name + "we'll send your result soon"
     print(farewell_message)
+user_name = input("please enter your name ")
+greet_user(user_name)
+
+num1 = random.randint(1,10)
