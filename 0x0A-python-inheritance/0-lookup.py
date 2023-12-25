@@ -40,3 +40,6 @@ greeting = greet_user(user_name)
 
 score = 0
 total = 0
+
+while total < 5:
+    num1 = random.randint(1, 10)
