@@ -15,3 +15,6 @@ def choose_operator(op_n):
         return "*"
     if op_n == 4:
         return "/"
+def print_result(user_name):
+    farewell_message = "thanks for taking this test" +  user_name + "we'll send your result soon"
+    print(farewell_message)
