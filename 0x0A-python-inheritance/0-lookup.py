@@ -54,7 +54,8 @@ print("the correct anwer is ", correct_answer)
 
 num1 = random.randint(1,10)
 num2 = random.randint(1,10)
-op = "*"
+op_num = random.randint(1,4)
+op = choose_operator(op_num)
 user_answer = input("Ans: ")
 correct_answer = num1 * num2
 print("your answer is", user_answer)
@@ -62,7 +63,8 @@ print("the correct anwer is ", correct_answer)
 
 num1 = random.randint(1,10)
 num2 = random.randint(1,10)
-op = "*"
+op_num = random.randint(1,4)
+op = choose_operator(op_num)
 user_answer = input("Ans: ")
 correct_answer = num1 * num2
 print("your answer is", user_answer)
