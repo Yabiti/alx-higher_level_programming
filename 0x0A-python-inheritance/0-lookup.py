@@ -53,4 +53,5 @@ while total < 5:
     user_answer = input("Ans: ")
     correct_answer = calculate_answer(num1, num2 , op)
 
-    
+    if user_answer == correct_answer:
+        print("Correct answer: ")
