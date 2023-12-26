@@ -13,3 +13,5 @@ def calculate_question(op_num):
         return "-"
     elif op_num == 3:
         return "*"
+    elif op_num == 4:
+        return "/"
