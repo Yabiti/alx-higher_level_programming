@@ -31,3 +31,6 @@ def calculate_question(n1, n2 , op):
         return "invalid operator"
 
 user_name = input("what's your name? ")
+
+score = 0
+total = 0
