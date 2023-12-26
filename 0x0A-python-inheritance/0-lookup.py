@@ -6,14 +6,14 @@ def print_question(num1, num2, op):
     q = "what is " + str(num1) + op + str(num2) + "? "
     print(q)
 
-def calculate_question(op_num):
-    if op_num == 1:
+def choose_operator(op_n):
+    if op_n == 1:
         return "+"
-    elif op_num == 2:
+    elif op_n == 2:
         return "-"
-    elif op_num == 3:
+    elif op_n == 3:
         return "*"
-    elif op_num == 4:
+    elif op_n == 4:
         return "/"
     else:
         return "invalid operator"
