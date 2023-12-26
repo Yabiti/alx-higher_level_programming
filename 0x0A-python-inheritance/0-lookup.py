@@ -47,3 +47,7 @@ while total < 5:
     print_question(num1, num2 , op)
     user_answer = input("Ans: ")
     correct_answer = calculate_answer(num1, num2, op)
+
+    if user_answer == correct_answer:
+        print("Correct answer: ")
+        score = score + 1
