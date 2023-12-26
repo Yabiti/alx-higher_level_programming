@@ -3,3 +3,4 @@ def greet_user(user_name):
     print(welcome_message)
 
 def print_question(num1, num2 , op):
+    q = "what is " + str(num1) + op + str(num2) + "?"
