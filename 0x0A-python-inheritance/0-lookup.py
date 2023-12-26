@@ -6,4 +6,4 @@ def print_question(num1, num2 , op):
     q = "what is " + str(num1) + op + str(num2) + "?"
     print(q)
 
-def choose_operator(op_n)
+def choose_operator(op_n):
