@@ -25,3 +25,5 @@ def choose_operator(op_n):
 def calculate_answer(n1, n2, op):
     if op == "+":
         return n1 + n2
+    if op == "-":
+        return n1 - n2
