@@ -7,6 +7,7 @@ def print_question(num1, num2 , op):
     print(q)
 
 def print_result(user_name, score):
+    farewell_message = farewell_message = "thanks for taking this test" + user_name + "your score is :" + str(score) + "out of 5"
 
 def choose_operator(op_n):
     if op_n == 1:
