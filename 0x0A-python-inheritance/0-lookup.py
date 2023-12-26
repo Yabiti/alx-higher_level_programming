@@ -19,7 +19,7 @@ def choose_operator(op_n):
     else:
         return "invalid operator"
 
-def calculate_question(n1, n2 , op):
+def calculate_answer(n1, n2 , op):
     if op == "+":
         return n1 + n2
     elif op == "-":
@@ -46,4 +46,4 @@ while total < 5:
 
     print_question(num1, num2 , op)
     user_answer = input("Ans: ")
-    correct_answer = calculate_question(num1, num2, op)
+    correct_answer = calculate_answer(num1, num2, op)
