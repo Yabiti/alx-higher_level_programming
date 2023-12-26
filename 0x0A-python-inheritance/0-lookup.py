@@ -1,3 +1,4 @@
+import random
 def greet_user(user_name):
     farewell_message = "Hello " + user_name + " Welcome to math test"
     print(farewell_message)
@@ -37,4 +38,4 @@ total = 0
 
 while total < 5:
 
-    
+    num1 = random.randint(1,10)
