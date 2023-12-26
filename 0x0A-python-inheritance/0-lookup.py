@@ -17,3 +17,5 @@ def choose_operator(op_n):
         return "/"
     else:
         return "invalid operator"
+
+def calculate_question(n1, n2 , op)
