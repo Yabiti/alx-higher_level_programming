@@ -59,3 +59,5 @@ while total < 5:
         print("oops wrong answer", correct_answer)
 
     total = total + 1
+
+print_result(user_name, score)
