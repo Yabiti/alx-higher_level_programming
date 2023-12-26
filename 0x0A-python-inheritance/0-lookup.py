@@ -36,3 +36,6 @@ def calculate_answer(n1, n2, op):
 
 user_name = input("Enter your name")
 greeting = greet_user(user_name)
+
+score = 0
+total = 0
