@@ -33,3 +33,5 @@ def calculate_answer(n1, n2, op):
         return n1 / n2
     else:
         return "invalid operator"
+
+user_name = input("Enter your name")
