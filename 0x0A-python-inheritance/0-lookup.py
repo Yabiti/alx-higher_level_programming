@@ -48,3 +48,5 @@ while total < 5:
     
     op_num = random.randint(1,4)
     op = choose_operator(op_num)
+
+    print_question(num1, num2 , op)
