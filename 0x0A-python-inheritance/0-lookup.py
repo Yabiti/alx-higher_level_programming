@@ -6,6 +6,9 @@ def greet_user(user_name):
 def print_question(num1, num2, op):
     q = "what is " + str(num1) + op + str(num2) + "? "
     print(q)
+def print_result(user_name):
+    farewell_message = farewell_message = "thanks for taking this quiz" + user_name + "Your score is" + str(score) + "out of 5"
+    print(farewell_message)
 
 def choose_operator(op_n):
     if op_n == 1:
@@ -55,3 +58,5 @@ while total < 5:
         print("oops wrong answer", correct_answer)
 
         total = total + 1
+
+print_result(user_name, score)
