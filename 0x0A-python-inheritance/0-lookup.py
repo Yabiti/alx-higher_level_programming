@@ -11,3 +11,5 @@ def choose_operator(op_n):
         return "+"
     if op_n == 2:
         return "-"
+    if op_n == 3:
+        return "*"
