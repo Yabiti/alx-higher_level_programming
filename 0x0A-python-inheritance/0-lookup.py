@@ -47,3 +47,4 @@ while total < 5:
     num2 = random.randint(1, 10)
     
     op_num = random.randint(1,4)
+    op = choose_operator(op_num)
