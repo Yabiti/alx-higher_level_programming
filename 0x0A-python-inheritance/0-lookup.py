@@ -34,3 +34,7 @@ user_name = input("what's your name? ")
 
 score = 0
 total = 0
+
+while total < 5:
+
+    
