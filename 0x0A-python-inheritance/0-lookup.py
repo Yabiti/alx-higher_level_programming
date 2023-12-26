@@ -9,4 +9,5 @@ def print_question(num1, num2 , op):
 def choose_operator(op_n):
     if op_n == 1:
         return "+"
-    
+    if op_n == 2:
+        return "-"
