@@ -39,3 +39,7 @@ total = 0
 while total < 5:
 
     num1 = random.randint(1,10)
+    num2 = random.radint(1,10)
+
+    op_num = random.randint(1,4)
+    op = choose_operator(op_num)
