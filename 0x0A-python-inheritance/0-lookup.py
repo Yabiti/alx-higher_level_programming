@@ -21,9 +21,11 @@ def choose_operator(op_n):
 def calculate_question(n1, n2 , op):
     if op == "+":
         return n1 + n2
-    if op == "-":
+    elif op == "-":
         return n1 - n2
-    if op == "*":
+    elif op == "*":
         return n1 * n2
-    if op == "/":
+    elif op == "/":
         return n1 / n2
+    else:
+        return "invalid operator"
