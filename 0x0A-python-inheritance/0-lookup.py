@@ -51,3 +51,7 @@ while total < 5:
     if user_answer == correct_answer:
         print("Correct answer: ")
         score = score + 1
+    else:
+        print("oops wrong answer", correct_answer)
+
+        total = total + 1
