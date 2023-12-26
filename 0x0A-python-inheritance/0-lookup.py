@@ -7,3 +7,6 @@ def print_question(num1, num2 , op):
     print(q)
 
 def choose_operator(op_n):
+    if op_n == 1:
+        return "+"
+    
