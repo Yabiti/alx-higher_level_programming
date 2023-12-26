@@ -55,3 +55,5 @@ while total < 5:
 
     if user_answer == correct_answer:
         print("Correct answer: ")
+    else:
+        print("oops wrong answer", correct_answer)
