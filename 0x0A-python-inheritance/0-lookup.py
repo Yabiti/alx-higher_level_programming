@@ -9,6 +9,6 @@ def print_question(num1, num2, op):
 def calculate_question(op_num):
     if op_num == 1:
         return "+"
-    if op_num == 2:
+    elif op_num == 2:
         return "-"
     
