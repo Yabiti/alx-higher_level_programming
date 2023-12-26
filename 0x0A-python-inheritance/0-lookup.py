@@ -50,3 +50,4 @@ while total < 5:
     op = choose_operator(op_num)
 
     print_question(num1, num2 , op)
+    user_answer = input("Ans: ")
