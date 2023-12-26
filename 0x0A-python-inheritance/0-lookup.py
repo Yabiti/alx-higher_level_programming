@@ -57,3 +57,5 @@ while total < 5:
         print("Correct answer: ")
     else:
         print("oops wrong answer", correct_answer)
+
+    total = total + 1
