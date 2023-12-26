@@ -1,7 +1,7 @@
 import random
 def greet_user(user_name):
-    farewell_message = "Hello " + user_name + " Welcome to math test"
-    print(farewell_message)
+    welcome_message = "Hello " + user_name + " Welcome to math test"
+    print(welcome_message)
 
 def print_question(num1, num2, op):
     q = "what is " + str(num1) + op + str(num2) + "? "
@@ -36,13 +36,15 @@ def calculate_answer(n1, n2 , op):
 
 user_name = input("what's your name? ")
 
+greeting = greet_user(user_name)
+
 score = 0
 total = 0
 
 while total < 5:
 
     num1 = random.randint(1,10)
-    num2 = random.radint(1,10)
+    num2 = random.randint(1,10)
 
     op_num = random.randint(1,4)
     op = choose_operator(op_num)
