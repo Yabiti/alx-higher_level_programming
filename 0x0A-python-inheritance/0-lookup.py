@@ -6,6 +6,8 @@ def print_question(num1, num2 , op):
     q = "what is " + str(num1) + op + str(num2) + "?"
     print(q)
 
+def print_result(user_name, score):
+
 def choose_operator(op_n):
     if op_n == 1:
         return "+"
@@ -17,3 +19,4 @@ def choose_operator(op_n):
         return "/"
     else:
         return "invalid operator"
+
