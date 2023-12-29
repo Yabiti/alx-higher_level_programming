@@ -3,3 +3,28 @@ table {
     letter-spacing: 1px;
     font-size: 0.8 rem;
 }
+
+td, th {
+    border: 1px solid;
+    padding: 10px 20px;
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: black;
+}
+
+r:nth-child(odd) td {
+    background-color: rgb(200,200,200);
+}
+
+caption {
+    padding: 10px;
+}
