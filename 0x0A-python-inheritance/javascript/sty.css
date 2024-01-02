@@ -13,3 +13,8 @@
 div {
     padding: 20px;
 }
+
+span {
+    background-color: aliceblue;
+    border: 5px solid;
+}
