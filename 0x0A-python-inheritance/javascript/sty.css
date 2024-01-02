@@ -1,5 +1,12 @@
 h1 {
-    border: 15px dashed maroon;
+    border: 5px dashed maroon;
     padding-top: 10px 20px;
+    width: 40%;
+    margin: 5px;
+    float: left;
     
+}
+
+.rounded {
+    border-radius: 15px;
 }
