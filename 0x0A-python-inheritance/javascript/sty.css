@@ -1,16 +1,4 @@
 body * {
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 10px;
-}
-
-#halfWidthcontainer {
-    width: 50%
-}
-
-.half {
-    width: 50%
-}
-
-.quarter {
-    width: 25%
 }
