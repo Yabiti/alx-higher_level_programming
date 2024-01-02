@@ -6,3 +6,11 @@ body * {
 #halfWidthcontainer {
     width: 50%
 }
+
+.half {
+    width: 50%
+}
+
+.quarter {
+    width: 25%
+}
