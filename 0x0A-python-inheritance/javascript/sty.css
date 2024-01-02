@@ -1,21 +1,7 @@
-#padding1 {
-    padding: 10px;
-}
-
-#padding2 {
-    padding: 10px;
-}
-
-#padding3 {
-    padding: 10px;
-}
-
-div {
-    padding: 20px;
+h1 {
+    border: dashed maroon;
+    padding-top: 10px;
     padding-bottom: 10px;
-}
-
-span {
-    background-color: aliceblue;
-    border: 5px solid;
+    padding-left: 20px;
+    padding-right: 20px;
 }
