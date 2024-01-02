@@ -1,3 +1,4 @@
-div.aboutclassSelectors > h1 {
-    border-bottom: white;
+body * {
+    border: 3px;
+    border-radius: 10px;
 }
