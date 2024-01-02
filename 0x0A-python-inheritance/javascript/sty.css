@@ -1,3 +1,3 @@
-div > h1 {
-    border-bottom: 1px solid white;
+div.aboutclassSelectors > h1 {
+    border-bottom: white;
 }
