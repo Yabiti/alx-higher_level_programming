@@ -1,7 +1,7 @@
 h1 {
     border: 5px solid wheat;
+    border-radius: 15px;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
 }
-
