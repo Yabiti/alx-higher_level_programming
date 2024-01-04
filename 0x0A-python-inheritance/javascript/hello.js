@@ -1,1 +1,4 @@
-var hl = document.querySelector('h1')
+var button = document.querySelector('h1');
+button.onclick = function() {
+    alert("hello, world")
+}
