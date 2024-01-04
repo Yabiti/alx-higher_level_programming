@@ -1,4 +1,4 @@
 var button = document.querySelector('h1');
 button.onclick = function() {
-    alert("hello, world")
+    alert("hello, world");
 }
