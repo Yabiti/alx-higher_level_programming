@@ -1,5 +1,1 @@
-var button = document.querySelector('button'); 
-
-button.onclick = function() {
-    alert('hello, world');
-}
+var button = document.querySelector('h1');
