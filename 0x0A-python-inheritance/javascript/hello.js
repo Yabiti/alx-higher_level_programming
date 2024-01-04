@@ -1,4 +1,7 @@
-var number1 = 10;
-var number2 = 50;
+var multiply = 10 * 10;
 
-console.log(number1 + number2);
+var addition = 10 + 10;
+
+console.log("ten times ten is", multiply)
+
+console.log("ten plus ten is", addition)
