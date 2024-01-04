@@ -1,1 +1,1 @@
-console.log('hello');
+var hl = document.querySelector('h1')
